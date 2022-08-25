@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<dimen name="activity_horizontal_margin">36.0444dp</dimen>
+	<dimen name="activity_vertical_margin">36.0444dp</dimen>
+	<dimen name="nav_header_vertical_spacing">18.0222dp</dimen>
+	<dimen name="paddingtop">225.2778dp</dimen>
+	<dimen name="_5dp">11.2639dp</dimen>
+	<dimen name="_10dp">22.5278dp</dimen>
+	<dimen name="_120dp">270.3333dp</dimen>
+	<dimen name="_35dp">78.8472dp</dimen>
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="buncheez.pk.kitchenapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:ignore="AllowBackup,GoogleAppIndexingWarning,UnusedAttribute">
+
+        <activity
+            android:name="buncheez.pk.kitchenapp.activities.SplashScreenActivity"
+            android:noHistory="true"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="buncheez.pk.kitchenapp.MainActivity"
+            android:label="Pending Order"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="buncheez.pk.kitchenapp.activities.OnlineOrderViewActivity"/>
+        <activity android:name="buncheez.pk.kitchenapp.activities.SelectKitchen" />
+        <activity
+            android:name="buncheez.pk.kitchenapp.activities.QrCodeActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="buncheez.pk.kitchenapp.activities.ViewOrderActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="buncheez.pk.kitchenapp.activities.LoginActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <service android:name="buncheez.pk.kitchenapp.firebase.service.MyFirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+    </application>
+</manifest>

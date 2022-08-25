@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1022175679623",
+    "project_id": "buncheez-d115a",
+    "storage_bucket": "buncheez-d115a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1022175679623:android:f7178551a07de1f0d69422",
+        "android_client_info": {
+          "package_name": "buncheez.pk.kitchenapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1022175679623-ai72rgaa4p90ifaip4tqum7ot4ufq8uj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "buncheez.pk.kitchenapp",
+            "certificate_hash": "46721e2f0b6e1b96fc36cce548ce3625c961ea7a"
+          }
+        },
+        {
+          "client_id": "1022175679623-caqavec6gh1hme1m8akaoo76k8r8jkms.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBWmlZwY63dt99nepDUpVS5Gj4uI5VpAE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1022175679623-caqavec6gh1hme1m8akaoo76k8r8jkms.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
